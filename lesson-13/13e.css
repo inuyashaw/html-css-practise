@@ -1,0 +1,55 @@
+.div {
+  font-family: Arial;
+}
+
+.flex1 {
+  width: 400px;
+  height: 380px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.25);
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 15px;
+}
+
+.mess1 {
+  margin-bottom: 30px;
+}
+
+.vertical1 {
+  color: gray;
+  font-size: 10px;
+  margin-bottom: 15px;
+}
+
+.vertical2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pic1 {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  margin-right:15px;
+}
+
+.horizontal2 {
+  flex: 1;
+}
+
+.in-vert1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.in-horizon1, .in-vert2 {
+  font-weight: bold;
+}
+
+.in-horizon2, .in-vert3 {
+  color: gray;
+}

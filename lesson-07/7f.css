@@ -1,0 +1,36 @@
+p {
+  font-family: Arial;
+  color: gray;
+  margin-top: 0px;
+  margin-top: 0px;
+}
+
+.p-0 {
+  font-size: 13px;
+  margin-bottom: 8px;
+}
+
+.in-2 {
+  height: 20px;
+  width: 315px;
+  border-style: solid;
+  border-radius: 2px;
+  font-size: 15px;
+  margin-bottom: 16px;
+}
+
+.p-1 {
+  font-size: 13px;
+  margin-bottom: 16px;
+}
+
+.p-2 {
+  color: white;
+  background-color: blue;
+  width: 319px;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 13px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>test</title>
+    <style>
+      .flex1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+
+      .div1, .div2 {
+        width: 400px;
+        background-color: lightpink;
+        display: flex;
+        flex-shrink: 0;
+      }
+
+      .input, .download {
+        margin-right: 40px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="flex1">
+      <div class="div1">Home</div>
+      <input class="i1" type="text" placeholder="Search">
+      <div class="div2">
+        <div class="input">Input</div>
+        <div class="download">Download</div>
+      </div>
+    </div>
+  </body>
+</html>

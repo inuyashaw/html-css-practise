@@ -1,0 +1,9 @@
+.in-1 {
+  height: 30px;
+  width: 150px;
+  color: gray;
+  border-style: solid;
+  border-color: gray;
+  border-radius: 5px;
+  padding-left: 8px;
+}

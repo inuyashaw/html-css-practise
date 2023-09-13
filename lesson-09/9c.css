@@ -1,0 +1,11 @@
+.p-0 {
+  width: 300px;
+  height: 80px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(65, 50, 50);
+}
+
+.p-1, .p-2, .p-3 {
+  margin-left:5px;
+}

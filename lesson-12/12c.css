@@ -1,0 +1,22 @@
+.flex-block {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.div1 {
+  background-color: lightblue;
+}
+
+.div2 {
+  background-color: lightpink;
+}
+
+.div3 {
+  background-color: lightblue;
+}
+
+.div4 {
+  background-color: lightpink;
+}

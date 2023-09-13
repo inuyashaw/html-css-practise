@@ -1,0 +1,70 @@
+.view1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 500px;
+}
+
+
+.picture {
+  padding: 0;
+  width: 65px;
+  height: 65px;
+  margin-right: 10px;
+}
+
+.pic-info {
+  width: 65px;
+  height: 65px;
+  border-radius: 35px;
+  object-fit: over;
+}
+
+.info {
+  flex: 1;
+}
+
+.name {
+  font-size: 17px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.email {
+  font-size: 17px;
+  color: gray;
+}
+
+.message {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.video-info {
+  display: flex;
+  flex-direction: row;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(200, 200, 200);
+  border-radius: 15px;
+  overflow: hidden;
+  align-items: center;
+}
+
+.pic-info1 {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(220, 220, 220);
+  margin-right: 10px;
+}
+
+.video-channel {
+  color: gray;
+  margin-bottom: 7px;
+  flex: 1;
+}
+
+.video-describe {
+  width: 280px;
+  flex: 1;
+}

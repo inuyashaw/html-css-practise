@@ -1,0 +1,20 @@
+.flex-block {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.div1 {
+  width: 50px;
+  background-color: lightblue;
+}
+
+.div2 {
+  flex: 1;
+  background-color: lightpink;
+}
+
+.div3 {
+  width: 75px;
+  background-color: lightblue;
+}

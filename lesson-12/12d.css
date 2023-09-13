@@ -1,0 +1,27 @@
+.flex-block {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-width: 1px;
+  border-style: solid;
+  border-color: gray;
+  height: 50px;
+}
+
+.div1 {
+  background-color: lightblue;
+}
+
+.div2 {
+  background-color: lightpink;
+}
+
+.div3 {
+  background-color: lightblue;
+}
+
+.div4 {
+  background-color: lightpink;
+}

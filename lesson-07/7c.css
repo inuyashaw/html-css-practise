@@ -1,0 +1,7 @@
+.p-2 {
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+  object-fit: center;
+  object-position: center;
+}

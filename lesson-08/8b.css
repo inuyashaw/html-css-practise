@@ -1,0 +1,9 @@
+.p-0, .p-1, .p-2 {
+  font-family: Arial;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.p-0 {
+  width: 240px;
+}

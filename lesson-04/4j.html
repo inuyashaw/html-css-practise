@@ -1,0 +1,21 @@
+<!note:未操作有shadow, when hover there is no Shadow>
+<style>
+  .Shadow-button{
+    background-color: green;
+    color: white;
+    border: none;
+    font-weight: bold;
+    font-size: 15x;
+    margin-left: 0px;
+    padding: 10px 10px;
+    cursor: pointer;
+    box-shadow: 5px 5px 0px rgba(0,0,0,0.15);
+    transition: margin-left 0.4s, box-shadow 0.4s;
+  }
+
+  .Shadow-button:active{
+    margin-left: 2px;
+    box-shadow: none;
+  }
+</style>
+<button class="Shadow-button">Shadow</button>

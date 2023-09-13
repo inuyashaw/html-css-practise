@@ -1,0 +1,66 @@
+div {
+  font-family: Arial;
+}
+
+.flex1 {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  padding: 10px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.25);
+}
+
+.vertical1 {
+  color: gray;
+  margin-bottom: 15px;
+  font-size: small;
+}
+
+.vertical2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  margin-bottom: 15px;
+
+}
+
+.pic1 {
+  width: 50px;
+  height: 50px;
+  border-radius: 30px;
+  object-fit: cover;
+  margin-right: 5px;
+}
+
+.horizontal2 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.in-vert1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.in-horizon1, .in-vert2 {
+  font-weight: bold;
+}
+
+.in-horizon2 {
+  color: gray;
+  font-size: small;
+}
+
+.in-vert3 {
+  color: gray;
+}
+
+.in-vert1, .in-vert2, .in-vert3 {
+  padding-bottom: 5px;
+}
+
