@@ -1,0 +1,67 @@
+body {
+  height: 3000px;
+}
+
+div {
+  font-family: Arial;
+}
+
+.leftsider {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+
+.column1 {
+  width: 100px;
+  background-color: rgb(31, 30, 30);
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.img1, .img2, .img3 {
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+  object-fit: over;
+  margin-top: 15px;
+}
+
+.column2 {
+  width: 200px;
+  background-color: rgb(95, 94, 94);
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.line1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.note {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.plus {
+  font-size: 30px;
+}
+
+.line2, .line3, .line4 {
+  font-size: 20px;
+  color:rgb(31, 30, 30);
+  margin-top: 15px;
+}

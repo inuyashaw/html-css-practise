@@ -1,0 +1,52 @@
+div {
+  font-family: Arial;
+}
+
+.right-sidebar {
+  background-color: green;
+  color: white;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100px;
+}
+
+.over-lay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+} 
+
+.table1 {
+  width: 300px;
+  height: 100px;
+  border-color:white;
+  border-style: solid;
+  border-radius: 10px;
+  background-color: white;
+  padding: 20px;
+}
+
+.line1 {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.line2 {
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+
+.line3 {
+  font-size: 17px;
+  
+}
