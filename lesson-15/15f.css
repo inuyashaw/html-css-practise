@@ -1,0 +1,47 @@
+div {
+  font-family: Arial;
+}
+
+body {
+  height: 3000px;
+}
+
+.div1 {
+  position: relative;
+  display: inline-block;
+}
+
+.pic1 {
+  width: 300px;
+  height: 200px;
+}
+
+.discount1 {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  background-color: gray;
+  color: white;
+}
+
+.buy-icon {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100px;
+  background-color: rgba(247, 242, 242, 0.4);
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info {
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+  background-color: white;
+  font-size: 15px;
+  padding: 10px;
+}

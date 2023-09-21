@@ -1,0 +1,173 @@
+div {
+  font-family: Arial;
+}
+
+body {
+  height: 3000px;
+  background-color: rgb(247, 244, 244);
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 45px;
+  z-index: 100;
+  padding: 5px 0 5px 0;
+  border-bottom-color: rgb(230, 224, 224);
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  background-color: white;
+
+}
+
+.header-left {
+  width: 160px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+} 
+
+.header-middle {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-left: 70px;
+  padding-right: 50px;
+}
+
+.header-right {
+  width: 210px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.header-left-memu{
+  width: 24px;
+  height: 20px;
+  object-fit: cover;
+  vertical-align: center;
+  margin-left: 20px;
+}
+
+.header-left-logo {
+  width: 94px;
+  height: 21px;
+  object-fit: cover;
+  vertical-align: center;
+}
+
+
+
+.header-middle-searchbar {
+  flex: 1;
+  max-width: 380px;
+  min-width: 30px;
+  height: 40px;
+  border: 1px solid rgb(240, 240, 240);
+  font-size: 15px;
+  padding-left: 5px;
+}
+
+.header-middle-searchbutton{
+  height: 44px;
+  width: 70px;
+  margin-left: -1px;
+  position: relative;
+}
+
+.header-middle-searchbutton-shadow,
+.header-middle-voice-shadow,
+.header-right-upload-shadow,
+.header-right-app-shadow,
+.header-right-notifications-shadow
+ {
+  position: absolute;
+  font-size: 10px;
+  background-color: gray;
+  color: white;
+  bottom: -40px;
+  padding: 5px;
+  border-radius: 2px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+.header-middle-searchbutton:hover .header-middle-searchbutton-shadow,
+.header-middle-voicebutton:hover .header-middle-voice-shadow,
+.header-right-upload-div:hover .header-right-upload-shadow,
+.header-right-app-div:hover .header-right-app-shadow,
+.header-right-notifications:hover .header-right-notifications-shadow
+{
+  opacity: 1;
+}
+
+.header-middle-searchbutton-pic {
+  height: 25px;
+  width: 25px;
+  object-fit: cover;
+  border: none;
+}
+
+.header-middle-voicebutton {
+  width: 42px;
+  height: 42px;
+  border: none;
+  border-radius: 22px;
+  background-color: rgb(245, 245, 245);
+  margin-left: 10px;
+  align-items: center;
+  position: relative;
+}
+
+.header-middle-voice {
+  width: 25px;
+  height: 25px;
+  object-fit: cover;
+  margin-top: 4px;
+}
+
+
+.header-right-upload,
+.header-right-apps,
+.header-right-notifications-pic {
+  height: 25px;
+  width: 25px;
+  object-fit: cover;
+}
+
+.header-right-notifications{
+  position: relative;
+}
+
+.header-right-notifications-num {
+  position: absolute;
+  top: -6px;
+  right: -2px;
+  font-size: 6px;
+  color: white;
+  background-color: red;
+  border: none;
+  border-radius: 8px;
+  padding: 1px 5px 1px 5px;
+}
+.header-right-channelpic {
+  height: 32px;
+  width: 32px;
+  object-fit: cover;
+  margin-right: 18px; 
+}
